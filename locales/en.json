@@ -12,6 +12,8 @@
     "lobby_options": "Options",
     "lobby_random_questions": "Random questions",
     "lobby_random_answers": "Random answers",
+    "lobby_send_questions_to_devices": "Send question to players' devices",
+    "lobby_show_scores_between": "Show scores between questions",
     "question_counter": "Question {current} / {total}",
     "pause_button": "Pause",
     "resume_button": "Resume",
@@ -168,6 +170,6 @@
     "footer_license": "License CC BY-SA 4.0",
     "footer_suggestions": "Write a comment or suggestion",
     "back_to_qplay_button": "Back to QPlay",
-    "lobby_click_to_copy": "Click the code to copy the join URL",
+    "lobby_click_to_copy": "Click the code above to copy the join URL",
     "lobby_copied": "URL copied!"
 }
