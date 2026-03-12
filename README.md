@@ -14,8 +14,8 @@ QPlay es una aplicación web de código abierto para crear y jugar cuestionarios
 * **Internacionalización (i18n)**: La interfaz está disponible en varios idiomas (español, catalán, inglés, gallego y euskera) y es fácilmente extensible.
 * **Accesibilidad**: Los jugadores se unen fácilmente con un código corto de 5 letras, sin necesidad de registros. Se genera un código QR para un acceso aún más rápido.
 * **Herramientas de creación integradas**:
-    * Un **editor manual** (`editor.html`) para crear y modificar preguntas una a una, con previsualización en tiempo real.
-    * Un **asistente con IA** (`editor_ia.html`) que genera un prompt optimizado para modelos como ChatGPT, permitiendo crear cuestionarios completos a partir de un tema y un nivel educativo.
+    * Un **editor manual** integrado en `index.html?modo=editor` para crear y modificar preguntas una a una, con previsualización en tiempo real.
+    * Un **asistente con IA** integrado en `index.html?modo=editor_ia` que genera un prompt optimizado para modelos como ChatGPT, permitiendo crear cuestionarios completos a partir de un tema y un nivel educativo.
 * **Gestión de cuestionarios**: Guarda y carga tus cuestionarios en un sencillo formato CSV.
 
 ## Tecnologías utilizadas
@@ -40,6 +40,13 @@ QPlay es una aplicación web de código abierto para crear y jugar cuestionarios
     * Accede al fichero `jugador.html` desde cualquier dispositivo.
     * Introduce tu nombre y el código de la partida proporcionado por el presentador.
     * ¡A jugar! Responde a las preguntas antes de que se acabe el tiempo.
+
+## Despliegue en GitHub Pages (dist)
+
+1.  Ejecuta `npm run build` para generar `dist/`.
+2.  Publica `dist/` con `npm run deploy`.
+
+La app quedará disponible en `https://TU_USUARIO.github.io/qplay/`.
 
 ## Autor
 
